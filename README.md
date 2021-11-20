@@ -1,6 +1,6 @@
 # E-COMMERCE WEBSITE SAMPLE
 
-Link: 
+Link: https://sample-ecommerce-k.herokuapp.com/
 
 This is a MERN stack e-commerce website
 
