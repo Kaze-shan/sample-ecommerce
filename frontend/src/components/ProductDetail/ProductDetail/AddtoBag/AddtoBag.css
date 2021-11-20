@@ -1,0 +1,7 @@
+.addtobag{
+    padding-top: 1.5em;
+} 
+
+.addtobag> .MuiButton-root {
+    width: clamp(200px, 20vw, 400px); 
+}

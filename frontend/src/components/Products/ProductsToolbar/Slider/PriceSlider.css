@@ -1,0 +1,8 @@
+.slidercontainer{
+    margin-left: 1em;
+    margin-right: 1.5em;
+}
+
+.slidercontainer .MuiSlider-root{
+    width: 100% !important;
+}

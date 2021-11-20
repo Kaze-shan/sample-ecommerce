@@ -1,0 +1,31 @@
+.productdetail__content{
+    display: flex;
+}
+
+.productdetail__descrp{
+    padding-left: 2em;
+    grid-area: productdetail__descrp;
+}
+
+.productdetail__descrptext{
+    max-width: 350px;
+    transition: ease-in-out 1ms;
+}
+
+@media only screen and (max-width: 812px){ 
+
+    .productdetail__content{
+        display: grid; 
+        grid-template-columns: 1fr; 
+        grid-template-rows: 0.1fr 1fr; 
+        gap: 0px 0px; 
+        grid-template-areas: 
+            "productdetail__img"
+            "productdetail__descrp"; 
+    }
+
+    .productdetail__descrp{
+        padding-left: 0px;
+    }
+
+}

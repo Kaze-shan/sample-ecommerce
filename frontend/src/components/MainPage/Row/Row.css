@@ -1,0 +1,41 @@
+.row{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    max-width: 996px;
+    width: 95vw;
+}
+
+.row> .MuiSvgIcon-root:hover{
+    cursor: pointer;
+}
+
+.row_products{
+    scroll-behavior: smooth;
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+
+.row_products::-webkit-scrollbar{
+    display: none;
+}
+
+.row_product{
+    width: 20vw;
+    max-width: 200px;
+    max-height: 200px;
+    height: 20vw;
+    margin: 10px;
+    transition: transform 450ms;
+}
+
+.row_product:hover{
+    transform: scale(1.08);
+    cursor: pointer;
+}
+
+.row_product> img{
+    height: 100%;
+}

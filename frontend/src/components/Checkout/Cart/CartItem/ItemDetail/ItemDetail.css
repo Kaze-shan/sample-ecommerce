@@ -1,0 +1,39 @@
+.cart__itemleft{
+    padding-left: 1em;
+    flex:1;
+}
+
+.cart__itemtop{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.cart__itemtop> .MuiSvgIcon-root{
+    font-size: 15px;
+    color: grey;
+    transition: ease-in-out 0.1s;
+}
+
+.cart__itemtop> .MuiSvgIcon-root:hover{
+    cursor: pointer;
+    color: #000000;
+}
+
+
+.cart__itemdetails{
+    padding-bottom: 0.8em;
+    
+} 
+
+.cart__itemdetails__brand{
+    font-weight: 700;
+    font-size: 11px;
+}
+
+@media only screen and (max-width: 812px){
+    .cart__itemleft{
+        padding-left: 0px;
+    }
+
+}

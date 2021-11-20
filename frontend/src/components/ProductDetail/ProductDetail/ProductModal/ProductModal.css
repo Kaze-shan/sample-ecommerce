@@ -1,0 +1,17 @@
+
+
+@media only screen and (min-width: 813px){ 
+
+    .modalpaper> img {
+        max-height: 90vh;
+    }
+    
+    }
+
+@media only screen and (max-width: 812px){ 
+
+.modalpaper> img {
+    max-width: 90vw;
+}
+
+}

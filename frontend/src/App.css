@@ -1,0 +1,46 @@
+* {
+  padding:0;
+  margin:0;
+}
+
+.App {
+  min-height: 100vh; 
+  margin: 0; 
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.App{
+  --primaryBackgroundColor:  #ffffff;
+  --primaryTextColor: #000000;
+  --secondaryBackgroundColor: #000000;
+  --secondartTextColor: #ffffff;
+  --secondaryShadeColor: #3d3d3d;
+  --borderColor:lightgray;
+  --alertColor: red;
+  --selectedColor: #7a56cc;
+}
+
+td{
+  vertical-align: top;
+}
+
+.black> .MuiButton-root{
+  background-color: var(--secondaryBackgroundColor) !important;
+  color: var(--secondartTextColor) !important;
+}
+
+.black> .Mui-disabled{
+  background-color: var(--borderColor) !important;
+  color: var(--secondartTextColor) !important;
+}
+
+.black> .MuiButton-root:hover{
+  background-color: var(--secondaryShadeColor) !important;
+}
+
+a{
+  text-decoration: none;
+  color: #000;
+}
+

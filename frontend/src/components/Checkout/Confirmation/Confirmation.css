@@ -1,0 +1,59 @@
+
+
+.confirmation___address{
+    border: solid 1px lightgrey;
+    padding: 20px;
+}
+
+.title{
+    font-weight: 600;
+}
+
+.hdtitle{
+    font-weight: 700;
+}
+
+.order__details{
+    margin-top: 20px;
+    border: solid 1px lightgrey;
+    padding: 20px;
+}
+
+.confirmation___items{
+    margin-top: 20px;
+    border: solid 1px lightgrey;
+}
+
+.confirmation___confirm{
+    margin-top: 20px;
+    border: solid 1px lightgrey;
+    padding: 20px;
+    width: 100%;
+}
+
+.confirm__subtotaldiv{
+    display: flex;
+    justify-content: space-between;
+}
+
+.confirm__shippingdiv{
+    display: flex;
+    justify-content: space-between;
+}
+
+.confirm__totaldiv{
+    display: flex;
+    justify-content: space-between;
+}
+
+td{
+    vertical-align: top;
+}
+
+.confirmation___itemstitle{
+    font-weight: 700;
+}
+
+.price{
+    white-space: nowrap
+}

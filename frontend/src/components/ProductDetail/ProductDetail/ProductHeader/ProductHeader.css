@@ -1,0 +1,25 @@
+.descrp__header{
+    margin: 0 0 1rem;
+}
+
+.header{
+    font-size: 1.71428571em;
+    line-height: 1.28571429em;
+}
+
+.productdetail__descrpbrand{
+    font-size: 1.2rem;
+    color: darkgray;
+    font-weight: 700;
+}
+
+.productbottom{
+    padding-top: 1.2vh;
+}
+
+@media only screen and (max-width: 812px){ 
+
+    .descrp__header{
+        margin: calc(2rem - 1.142857em) 0 1rem;
+    }
+}

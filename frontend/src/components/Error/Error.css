@@ -1,0 +1,10 @@
+.errorpage{
+    margin-left: auto;
+    margin-right: auto;
+    height: 70vh;
+}
+
+.errorpage img{
+    height: 100%;
+    object-fit: contain;
+}

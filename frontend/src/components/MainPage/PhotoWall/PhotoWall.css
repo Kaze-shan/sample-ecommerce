@@ -1,0 +1,31 @@
+.photowall{
+    max-width: 996px;
+    width: 95vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+        "area1 area2 area5"
+        "area1 area3 area5"
+        "area4 area3 area6"; 
+    gap: 0.3em;
+}
+
+.mainpage__newarrives{
+    letter-spacing: 2px;
+    text-align: center;
+    color: #6d6e6e;
+    padding-top: 3em;
+}
+
+.area1 { grid-area: area1; }
+.area2 { grid-area: area2; }
+.area6 { grid-area: area6; }
+.area3 { grid-area: area3; }
+.area4 { grid-area: area4; }
+.area5 { grid-area: area5; }
+
+.photo img{
+    width: 100%;
+}

@@ -1,0 +1,20 @@
+.menudrawer {
+    display: flex;
+    align-items: center;
+}
+
+.menudrawer>.MuiSvgIcon-root{ 
+    padding-right: 10px ;
+    font-size: 30px;
+}
+
+.menudrawerlogo{
+    background-color: var(--secondaryBackgroundColor);
+    color:var(--secondartTextColor);
+    padding: 5px 16px;
+    font-size: 1.5rem;
+}
+
+.menudrawerlogo:hover{
+    cursor: pointer;
+}

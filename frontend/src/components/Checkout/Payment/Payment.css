@@ -1,0 +1,151 @@
+.payment{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    padding-bottom: 0.8em;
+}
+
+.paymentaddress{
+    flex: 2;
+    min-width: 300px;
+    border: solid 1px lightgray;
+    padding: 1em;
+}
+
+.cart__leftitemssubtotal{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.cart__shippingoptions{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding-left:20px;
+}
+
+.testcard{
+    padding-bottom: 0.5em;
+    color: rgb(187, 187, 187);
+    font-size: 0.8em;
+}
+
+.cart__leftitemspaymenttotal{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;  
+}
+
+.paymentoptions{
+    border: solid 1px lightgrey;
+    padding: 1em; 
+    margin-top: 1em;
+}
+
+.payment>.MuiListItem-root{
+    background-color: var(--secondaryBackgroundColor);
+    color:var(--secondartTextColor);
+}
+
+.payment .MuiFormControl-root {
+    margin-right: 15px !important;
+    margin-bottom: 25px !important;
+}
+
+.paymentbuttondiv{
+    display: flex;
+    justify-content: center;
+}
+
+.ContinueButton{
+    margin-bottom: 25px !important;
+    margin-top: 20px !important;
+}
+
+.ContinueButton:hover{
+    background-color: #474747 !important;
+}
+
+.shipping__div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 500px ;
+    height: 150px;
+    margin-left: auto ;
+    margin-right: auto ;
+}
+
+.payment__div{
+    margin-top: 30px;
+}
+
+.payment__div> input{
+    margin-top: 30px;
+}
+
+.payment__right{
+    flex: 1;
+    min-width: 300px;
+}
+
+.cart__rightitems{
+    padding: 20px;
+}
+
+.confirmation___item{
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.confirmation___itemprice{
+    white-space: nowrap;
+}
+
+
+.payment___items{
+    width: 100%;
+    border: solid 1px lightgrey;
+}
+
+@media only screen and (max-width: 812px){
+
+    .paymentaddress{
+        padding: 4%;
+        /* min-width: 0px; */
+    }
+
+    .nestedlist{
+        padding:0px !important;
+    }
+
+    .payment .MuiFormControl-root {
+        margin-right: 0px !important;
+        margin-bottom: 3% !important;
+    }
+
+    .payment___items .MuiListItem-gutters {
+        /* padding-left: 3% !important;
+        padding-right: 3% !important; */
+    }
+
+    .cart__leftitemssubtotal{
+        padding: 3%;
+    }
+
+    .cart__shippingoptions{
+        padding: 3%;
+    }
+
+    .cart__leftitemspaymenttotal{
+        padding: 3%;
+    }
+
+    .cart__rightitems{
+        padding: 3%;
+    }
+}

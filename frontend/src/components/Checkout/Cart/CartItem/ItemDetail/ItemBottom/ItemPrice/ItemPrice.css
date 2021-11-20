@@ -1,0 +1,17 @@
+.cart__itemprice{
+    padding-left: 1em;
+    width: 150px;
+    grid-area: cart__itemprice;
+}
+
+.cart__itemprice_discount{
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 812px){
+    
+    .cart__itemprice{
+        width: 100px;
+    }
+}

@@ -1,0 +1,25 @@
+.productdetail__descrpcolor{
+    padding-top: 1.2em;
+    font-weight: 700;
+}
+
+.colorimage{
+    width:clamp(50px,5vw,100px);
+    height:clamp(50px,5vw,100px);
+}
+
+.colorimage img{
+    object-fit: contain;
+    width: 100%;
+}
+
+.colordivwrapper{
+    padding-top: 0.9em;
+    display: flex;
+    align-items: center;
+    
+}
+
+.selected{
+    border: solid 1px var(--selectedColor);
+}

@@ -1,0 +1,42 @@
+.checkout{
+    max-width: 1200px;
+    width:90vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+}
+
+.emptycart{
+    border: solid 1px lightgrey;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 50vh;
+}
+
+.emptycart p{
+    margin-bottom: 10vh;
+}
+
+.blackbutton{
+    background-color: var(--secondaryBackgroundColor) !important;
+    color:var(--secondartTextColor)!important;
+}
+
+.MuiStepper-root{
+    padding: 2% !important;
+}
+
+@media only screen and (max-width: 812px){
+
+    .checkout{
+    padding-left: 2%;
+    padding-right: 2%;
+    }
+
+    .MuiStepLabel-labelContainer{
+        display: none;
+    }
+}

@@ -1,0 +1,89 @@
+.cartthuumb{
+    position: absolute;
+    top:100%;
+    right: 0px;
+    color: var(--primaryTextColor);
+    background-color: var(--primaryBackgroundColor);
+    z-index: 1;
+    box-shadow: -1px 3px 7px #c9c9c9;
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 1s ease-in-out;
+}
+
+.cartthuumb::-webkit-scrollbar{
+    display: none;
+}
+
+.cartthuumb  {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+.cartthuumb__title{
+    background-color: #6d6e6e;
+    color:#ffffff;
+    padding:12px
+}
+
+.cartthuumb__body{
+    padding:12px
+}
+
+.cartthuumb__cart{
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.cartthuumb__cartlist{
+    padding-bottom: 0px;
+    background-color: var(--primaryBackgroundColor);
+}
+
+.cartcotent__title{
+    color: var(--primaryTextColor);
+    text-transform: uppercase;
+}
+
+.cartthuumb__cartcontent{
+    flex:1;
+    color: #6d6e6e;
+    font-size: 12px;
+}
+
+.cartthuumb__cartdiscounted{
+    color: #820000;
+}
+
+.cartthuumb__subtotal{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.cartthuumb__cartimg{
+    width: 80px;
+    margin-right: 15px;
+}
+
+.cartthuumb__cartimg img{
+    object-fit: contain;
+    width: 100%;
+}
+
+.prl{
+    padding-right: 25px;
+}
+
+
+.buttonprl{
+    margin-right: 25px !important;
+}
+
+.cartthuumb__bottomtoolbar{
+    background-color: #ddd;
+    padding:12px;
+    display: flex;
+    justify-content: center;
+}

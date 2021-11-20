@@ -1,0 +1,14 @@
+.colordiv{
+    margin-right: 0.8em;
+    border: solid 1px lightgrey;
+    border-radius: 0.5em;
+    overflow-y: hidden;
+    position: relative;
+    flex-wrap: wrap;
+    gap: 0.2em;
+}
+
+.colordiv:hover{
+    border: solid 1px grey;
+    cursor:pointer;
+}

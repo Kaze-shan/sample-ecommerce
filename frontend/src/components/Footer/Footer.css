@@ -1,0 +1,19 @@
+.footerwrap{
+    margin-top: 1em;
+    background-color: #ddd;
+    color: #666;
+    font-size: small;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer__link{
+    display: flex;
+    justify-content: center;
+}
+
+.footer__link p{
+    padding-right: 1em;
+}

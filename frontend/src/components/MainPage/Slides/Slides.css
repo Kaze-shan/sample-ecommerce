@@ -1,0 +1,26 @@
+.carousel{
+    position: relative;
+    margin-bottom: 1em;
+}
+
+.slidebuttons{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+
+.slideButton{
+    border: none;
+    border-radius: 50px;
+    height: 2em;
+    width: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slideButton:hover{
+    opacity: 0.5;
+}

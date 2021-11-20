@@ -1,0 +1,113 @@
+.navigationbar__wrap{
+    background-color: var(--secondaryBackgroundColor);
+}
+
+.navigationbar{
+    background-color: var(--secondaryBackgroundColor);
+    color: var(--secondartTextColor);
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: 0.1fr 1fr 0.1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+        "left middle right"; 
+    align-items: center;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    padding: 1vh 0px;
+}
+
+.navigationbar__left{
+    display: flex;
+    align-items: center;
+    padding: 0px 0em;
+    grid-area: left;
+}
+
+.navigationbar__logo{
+    font-size: 1.2em;
+}
+
+.navigationbar__logo:hover{
+    cursor: pointer;
+}
+
+.navigationbar__middlesearch{
+    max-width: 900px;
+    align-items: center;
+    grid-area: middle;
+    padding: 0px 1em;
+}
+
+.navigationbar__middlesearch>.MuiSvgIcon-root{
+    color: var(--primaryTextColor);
+}
+
+
+.navigationbar__tool{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-width: 80px;
+    grid-area: right;
+    padding: 0px 1em;
+}
+
+.navigationbar__tool>.MuiSvgIcon-root{
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 25px;
+}
+
+.nav_cart{
+    padding-left: 5px;
+}
+
+.nav_cart:hover .cartthuumb{
+    max-height: 400px;
+    overflow-y: scroll;
+}
+
+.nav_cart::before{
+    content: "";
+    position: absolute;
+    bottom: -1.18em;
+    right: 3em;
+    padding: 0.8em;
+    background-color: #6d6e6e;
+    border-right: 0;
+    border-bottom: 0;
+    transform: rotate(45deg);
+    opacity: 0;
+    transition: 0.8s ease-in-out;
+  }
+
+  .nav_cart:hover::before{
+    opacity: 1;
+  }
+
+@media only screen and (max-width: 812px){
+
+  .navigationbar__left{
+      padding-right: 0em;
+  }
+
+  .navigationbar__tool{
+      padding-left: 0px;
+  }
+
+    .nav_cart::before{
+        display: none;
+    }
+
+    .navigationbar__middlesearch{
+        padding-right: 0px;
+    }
+
+    .navigationbar__left>.MuiSvgIcon-root{
+        font-size: 25px;
+    }
+
+}

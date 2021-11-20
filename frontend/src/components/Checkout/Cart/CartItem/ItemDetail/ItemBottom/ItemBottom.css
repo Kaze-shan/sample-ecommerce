@@ -1,0 +1,34 @@
+.cart__itemdetails__cosi{
+    grid-area: cart__itemdetails__cosi;
+} 
+
+.cart__itemdetails__color{
+    padding-right: 1em;
+}
+
+.cart__itembottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.cart__itembottomleft{
+    display: flex;
+    align-items: center;
+    text-align: right;
+}
+
+@media only screen and (max-width: 812px){
+
+    .cart__itembottom{
+        gap: 0.8em;
+    }
+
+    .cart__itembottomleft{
+        flex: 1;
+        justify-content: space-between;
+    }
+  
+}

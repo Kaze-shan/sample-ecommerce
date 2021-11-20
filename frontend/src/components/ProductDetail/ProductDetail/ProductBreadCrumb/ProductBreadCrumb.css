@@ -1,0 +1,17 @@
+
+.guide{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.8em;
+}
+
+.guide__item{
+    display: flex;
+    align-items: center;
+    padding-right: 0.1em;
+    font-size: 0.9em;
+}
+
+.guide__item span:hover{
+    cursor: pointer;
+}

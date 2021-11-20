@@ -1,0 +1,17 @@
+{
+    "trailingComma": "all",
+    "singleQuote": true,
+    "tabWidth": 4,
+    "printWidth": 120,
+    "arrowParens": "avoid",
+    "endOfLine": "crlf",
+    "overrides": [
+      {
+        "files": ["*.less", "*.css", "*.json"],
+        "options": {
+          "tabWidth": 2
+        }
+      }
+    ]
+  }
+  

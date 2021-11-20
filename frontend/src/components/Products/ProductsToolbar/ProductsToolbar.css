@@ -1,0 +1,25 @@
+.productstoolbar{
+    justify-content: space-between;
+    min-width: 200px;
+}
+
+.productstoolbar__item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 1em;
+}
+
+.filterby{
+    font-weight: 700;
+    color: var(--primaryTextColor);
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width: 812px){
+
+    .productstoolbar{
+        justify-content: space-between;
+        min-width: 50vw;
+    }
+}

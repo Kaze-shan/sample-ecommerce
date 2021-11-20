@@ -1,0 +1,135 @@
+.products{
+    max-width: 1200px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid; 
+    grid-template-columns: 0.1fr 1fr; 
+    grid-template-rows: 0.1fr 0.1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+        "products__guide products__guide"
+        "products__filter products__page"; 
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.products__guide{
+    padding-left: 8px;
+    font-size: 0.9rem;
+    color: #6d6e6e;
+    display: flex;
+    align-items: center;
+    grid-area: products__guide;
+}
+
+.products__guide__item{
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.products__guide__item p:hover{
+    cursor: pointer;
+}
+
+.products__body{
+    display: flex;
+}
+
+.products__filter{
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 1em;
+    grid-area: products__filter;
+}
+
+.products__upper label{
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0 5px 0 5px;
+}
+
+.products__page{
+    padding: 1em;
+    grid-area: products__page;
+}
+
+.products__pagewrap{
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    gap: 1em; 
+    justify-content: space-between;
+    width: 100%;
+}
+
+.products__upper{
+    display: flex;
+    padding: 1em;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 0.9rem;
+}
+
+.searchtext{
+    font-size: 1.2em;
+    color: var(--primaryTextColor);
+}
+
+.products__filter__phone{
+    display: flex;
+    align-items: center;
+    grid-area: products__filter__phone;
+    font-size: 0.9rem;
+    justify-content: flex-end;
+    margin-right: 1em;
+    padding-left: 1em;
+    border: solid 1px #acacac;
+}
+
+.filtertext{
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+.products__pagination{
+    margin-top: 2em;
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 812px){
+
+    .products{
+        display: grid; 
+        grid-template-columns: 1fr 0.1fr; 
+        grid-template-rows: 0fr 1fr; 
+        gap: 0px 0px; 
+        grid-template-areas: 
+            "products__guide products__filter__phone"
+            "products__page products__page"; 
+        align-content: center; 
+        justify-content: space-between;
+    }
+
+    .products__upper{
+        padding-left: 1em;
+    }
+
+    .products__pagewrap{
+        display: flex;
+        flex-wrap: wrap;
+        display: inline-flex;
+        justify-content: center;
+        gap: 1em;
+    }
+
+    .products__page{
+        padding: 0px;
+    }
+
+    .products__guide{
+        border-bottom: solid 1px #acacac;
+    }
+}

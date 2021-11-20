@@ -1,0 +1,32 @@
+
+.productdetail__descrpstock{
+    padding-top: 1.2em;
+    font-weight: 700;
+    
+}
+
+.stockdiv{
+    margin-top: 0.9em;
+    width: 100%;
+}
+
+.stockdiv> #purchaseQuantity{
+    width: 100px;
+}
+
+.stockdiv>span{
+    font-weight: 600;
+    color: var(--alertColor);
+    padding-left: 1.2em;
+}
+
+
+.producterror{
+    animation-name: fade-in;
+    animation-duration: 0.5s;
+}
+
+@keyframes fade-in {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
