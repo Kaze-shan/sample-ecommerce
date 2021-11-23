@@ -40,11 +40,14 @@ function Cartthumb() {
                                         <img src={item.image} alt={item.productID.name} />
                                     </div>
                                     <table className="cartthuumb__cartcontent">
-                                        <tbody>
+                                        <thead align="left">
                                             <tr>
-                                                <td className="cartcotent__title">{item.productID.name}</td>
+                                                <th colSpan="2" className="cartcotent__title">
+                                                    {item.productID.name}
+                                                </th>
                                             </tr>
-
+                                        </thead>
+                                        <tbody>
                                             <tr>
                                                 <td className="prl">Size</td>
                                                 <td>{item.size}</td>

@@ -42,7 +42,7 @@ function PaymentAddressForm() {
                     type: 'SET_PHONEERROR',
                     phoneError: true,
                 });
-                setPhoneErrorText('Invalid Number (Only HK number is accepted)');
+                setPhoneErrorText('Invalid Number (Only HK number is accepted(8digits))');
             } else {
                 reducerDispatch({
                     type: 'SET_PHONEERROR',

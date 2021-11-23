@@ -80,8 +80,6 @@ const handlePayment = async (req, res, next) => {
     );
 
     if (!result.success) {
-      console.log(result);
-      console.log(result.success);
       return res.status(400).json({error: result});
     }
 

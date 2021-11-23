@@ -11,15 +11,6 @@
     transition: max-height 1s ease-in-out;
 }
 
-.cartthuumb::-webkit-scrollbar{
-    display: none;
-}
-
-.cartthuumb  {
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
-  }
-
 .cartthuumb__title{
     background-color: #6d6e6e;
     color:#ffffff;
@@ -27,8 +18,23 @@
 }
 
 .cartthuumb__body{
-    padding:12px
+    padding:12px;
 }
+
+.cartthuumb__cartlist{
+    max-height: 220px;
+    overflow-y: scroll;
+}
+
+
+.cartthuumb__cartlist::-webkit-scrollbar{
+    display: none;
+}
+
+.cartthuumb__cartlist  {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
 
 .cartthuumb__cart{
     display: flex;

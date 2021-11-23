@@ -29,7 +29,12 @@ function PaymentShippingOption() {
     return (
         <div className="cart__shippingoptions">
             <span>Shipping</span>
-            <select id="shipping" defaultValue={shippingfee} onBlur={handleChangeShipping}>
+            <select
+                id="shipping"
+                defaultValue={shippingfee}
+                onBlur={handleChangeShipping}
+                onChange={handleChangeShipping}
+            >
                 {shippingoptions.map(ship => (
                     <option key={ship.value} value={ship.value}>
                         {ship.label}

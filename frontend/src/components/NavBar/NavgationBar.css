@@ -67,7 +67,6 @@
 
 .nav_cart:hover .cartthuumb{
     max-height: 400px;
-    overflow-y: scroll;
 }
 
 .nav_cart::before{
