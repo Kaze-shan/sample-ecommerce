@@ -5,7 +5,9 @@ Link: https://sample-ecommerce-k.herokuapp.com/
 This is a MERN stack e-commerce website
 
 -FrontEnd: React, Material-UI
+
 -BackEnd: NodeJS, Express
+
 -Datebase: MongoDB
 
 # Install Dependencies
