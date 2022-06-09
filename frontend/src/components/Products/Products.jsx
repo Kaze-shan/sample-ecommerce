@@ -99,6 +99,7 @@ function Products({ search }) {
     };
 
     const handleChangeSort = event => {
+        if (event.target.value === sort) return; //onBlur not working
         setSort(event.target.value);
         clearProduct();
         window.scrollTo(0, 0);
@@ -205,7 +206,7 @@ function Products({ search }) {
                 <div className="products__upper">
                     <span>{count ? count : 0} Item(s) found | </span>
                     <span>SORT BY</span>
-                    <select name="sort" id="sort" value={sort} onBlur={handleChangeSort}>
+                    <select name="sort" id="sort" value={sort} onChange={handleChangeSort} onBlur={handleChangeSort}>
                         <option value={'lowestPrice'}>Lowest Price</option>
                         <option value={'highestPrice'}>Highest Price</option>
                         <option value={'latestArrival'}>Latest Arrival</option>

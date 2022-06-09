@@ -118,10 +118,11 @@
     }
 
     .products__pagewrap{
+        margin-left: 1rem;
         display: flex;
         flex-wrap: wrap;
         display: inline-flex;
-        justify-content: center;
+        justify-content: flex-start;
         gap: 1em;
     }
 
@@ -132,4 +133,16 @@
     .products__guide{
         border-bottom: solid 1px #acacac;
     }
+}
+
+@media only screen and (max-width: 600px){
+
+    .products__pagewrap{
+        margin-left: 0rem;
+    }
+
+    .products__pagewrap{
+        justify-content: center;
+    }
+
 }

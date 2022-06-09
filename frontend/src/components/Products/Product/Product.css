@@ -78,6 +78,18 @@
 
 @media only screen and (max-width: 812px){
     .product{
+        width: 40vw;
+    }
+
+    .product__img{
+        width: 100%;
+        height: 40vw;
+    }
+
+}
+
+@media only screen and (max-width: 600px){
+    .product{
         width: 85vw;
     }
 
